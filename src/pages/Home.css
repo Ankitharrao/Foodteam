@@ -1,0 +1,159 @@
+/* Home Page Styling */
+.home-container {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 0 20px;
+}
+
+.home-header {
+  background-color: #ffc0cb;
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.order-now-btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-color: white;
+  color: #ffc0cb;
+  border: 2px solid #fca3b2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-now-btn:hover {
+  background-color: #fd98a9;
+  color: white;
+}
+
+.featured-menu, .promotions, .testimonials {
+  margin: 40px 0;
+}
+
+.featured-menu h2, .promotions h2, .testimonials h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+  margin: 15px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 8px;
+  
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #fea9b7;
+}
+
+.order-btn {
+  padding: 10px 20px;
+  background-color: #ff97a8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #e64a19;
+}
+
+
+
+.promo-item {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+  margin: 15px;
+}
+
+.promo-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  margin: 20px 0;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.testimonial h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.home-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.promo-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ a {
+  color: #ffc0cb;
+  text-decoration: none;
+}

@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.navbar{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    align-items: stretch;
+
+    padding: 0 1rem;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:flex;
+    gap:1rem;
+}
+.site-name{
+    font-size: 2rem;
+}
+.navbar li.active{
+    background-color: #555;
+}
+.navbar li:hover{
+    background-color: #777;
+}
+.home-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f3e6;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    color: #d2691e;
+    margin-bottom: 10px;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #5a5a5a;
+  }
+  
+  .cake-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cake-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    transition: transform 0.2s;
+  }
+  
+  .cake-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .cake-name {
+    font-size: 1.5rem;
+    color: #8b0000;
+    margin-bottom: 5px;
+  }
+  
+  .cake-description {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .btn.view-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d2691e;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn.view-more:hover {
+    background-color: #b55315;
+  }
+  
